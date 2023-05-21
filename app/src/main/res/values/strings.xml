@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Card Share</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="new_here">New Here?</string>
+    <string name="signup">SignUp</string>
+    <string name="enter_email_here">Enter Email Here</string>
+    <string name="passwordl">Password</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_user_id">Enter user id</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="uniqueId">Enter Unique Id</string>
+    <string name="welcome">Welcome</string>
+    <string name="readdata">These are details read from database</string>
+    <string name="email">Email</string>
+    <string name="user_id">User id</string>
+    <string name="mail">MAIL</string>
+    <string name="unique_id">UNIQUE ID</string>
+</resources>

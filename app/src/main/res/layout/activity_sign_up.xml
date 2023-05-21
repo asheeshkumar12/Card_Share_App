@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SignUpActivity">
+
+    <EditText
+
+        android:id="@+id/emailSign"
+        android:layout_marginTop="130dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email_here"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#7E7979"
+        android:autofillHints="username,email"
+        android:layout_marginStart="40dp"
+        android:textSize="30sp"/>
+
+    <EditText
+
+        android:id="@+id/nameid"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:layout_below="@id/emailSign"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#7E7979"
+        android:autofillHints="username"
+        android:layout_marginStart="40dp"
+        android:textSize="30sp"/>
+
+    <EditText
+
+        android:id="@+id/userid"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_user_id"
+        android:layout_below="@id/nameid"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#7E7979"
+        android:autofillHints="username,email"
+        android:layout_marginStart="40dp"
+        android:textSize="30sp"/>
+
+
+    <EditText
+        android:id="@+id/passFrist"
+        android:layout_below="@id/userid"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/passwordl"
+        android:autofillHints="fiil passwprd"
+       android:textColor="#5A4949"
+        android:layout_marginStart="40dp"
+
+        android:inputType="textPassword"
+        android:textColorHint="#8E8585"
+        android:textSize="30sp"/>
+<!--    <TextView-->
+<!--        android:id="@+id/passConfLabel"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/confirm_password"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_below="@id/passConfLabel"-->
+<!--        android:labelFor="@id/passConf" />-->
+
+    <EditText
+        android:id="@+id/passConf"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_below="@id/passFrist"
+        android:layout_marginTop="20dp"
+        android:autofillHints="conf pass"
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password"
+        android:textColorHint="#7E7979"
+        android:textSize="30sp"
+         />
+
+    <Button
+        android:id="@+id/btnSign"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/passConf"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="33dp"
+        android:text="@string/signup"
+        android:textSize="20sp"
+
+        />
+
+</RelativeLayout>

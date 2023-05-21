@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046682448007",
+    "project_id": "zoco-nut",
+    "storage_bucket": "zoco-nut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046682448007:android:9c2fa950c9afafe7f80822",
+        "android_client_info": {
+          "package_name": "com.example.cardshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046682448007-n2cns331tkc92ev5jm8q9pn2gfuq8pe6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjPUKzimyLXFHCzl_bLN9adR9fphrqksM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046682448007-n2cns331tkc92ev5jm8q9pn2gfuq8pe6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
